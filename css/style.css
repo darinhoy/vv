@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ul{
+    margin: 0;
+    display: flex;
+    list-style: none;
+    background: teal;
+}
+ul li{
+    padding: 15px;
+    text-transform: uppercase;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li:hover{
+    background: orange;
+}
+.header{
+    background: orange;
+    padding: 30px;
+    text-align: center;
+    color: black;
+
+}
+.pos-sticky{
+    position: sticky;
+    top: 0;
+}
+.contact{
+    display: flex;
+    margin: 20px;
+    width: 90%;
+}
+.card{
+    display: flex;
+    width: 30%;
+}
+/* .pos-fixed{
+    background: #cf8e8e;
+    width: 150px;
+    padding: 10px;
+    border-radius: 40px;
+    text-align: center;
+    position: fixed;
+} */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    /* bottom: 0; */
+}
